@@ -43,8 +43,7 @@ public class RockPaperScissorsGame {
         for(int i=0; i<winners.length; i++) {
             System.out.println((i+1) + "	" + winners[i]);
         }
-        System.out.println("
-Summary:");
+        System.out.println("Summary:");
         System.out.println("Player	Wins	Percentage");
         for(String[] row : stats) {
             System.out.println(row[0] + "	" + row[1] + "	" + row[2] + "%");
